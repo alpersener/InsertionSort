@@ -26,7 +26,7 @@ Time Complexity
 
 **1)Adaptive (Uyarlanabilir)**: İnsertion Sort, giriş dizisinin bazı bölümleri zaten sıralı veya yakın sıralı ise, performansı artırabilir. Yani, eğer dizinin bir kısmı zaten sıralı ise, İnsertion Sort bu sıralı kısmı korur ve sadece karışık kısımları sıralar. Bu, algoritmanın sıralama işlemini daha hızlı yapmasını sağlar.
 
-**2)Stable:**Örneğin, bir dizide aynı değere sahip iki öğe varsa ve bu diziyi İnsertion Sort ile sıralarsanız, bu iki öğenin sıralama sonrasındaki sırası giriş dizisindeki sırasıyla aynı kalır. Başka bir sıralama algoritması, özellikle karşılaştırma temelli olmayan bazı algoritmalar, aynı değere sahip öğelerin sırasını değiştirebilir, bu nedenle bu tür algoritmalar "stabil" olarak kabul edilmez.
+**2)Stable:** Örneğin, bir dizide aynı değere sahip iki öğe varsa ve bu diziyi İnsertion Sort ile sıralarsanız, bu iki öğenin sıralama sonrasındaki sırası giriş dizisindeki sırasıyla aynı kalır. Başka bir sıralama algoritması, özellikle karşılaştırma temelli olmayan bazı algoritmalar, aynı değere sahip öğelerin sırasını değiştirebilir, bu nedenle bu tür algoritmalar "stabil" olarak kabul edilmez.
 
 Stabil sıralama, bazı uygulamalarda önemlidir, çünkü aynı değere sahip öğelerin orijinal sıralama sırası önemli bir bilgi taşıyorsa, bu bilgiyi korur. Bu özellik, verileri birden fazla kriterle sıralamak veya sıralamadan sonra başka işlemler yapmak için kullanışlı olabilir.
 
