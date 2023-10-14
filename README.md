@@ -7,9 +7,7 @@ Insertion sort,dizi sorted ve unsorted kısıma ayrılır ilk başta örneğin 2
 ![photo2](https://github.com/alpersener/InsertionSort/blob/master/photo2.png)
 
 
-İ değeri her zaman n-2 olmak zorundadır sebebi ise örneğin i değeri 4 oldu j değeri i+1 olduğu için 5 olacaktır 5 olması demek indexoutofBoundException atması demektir bundan dolayı i her zaman
-
-i<arr.length-2 olması gerekmektedir.
+İ değeri her zaman n-2 olmak zorundadır sebebi ise örneğin i değeri 4 oldu j değeri i+1 olduğu için 5 olacaktır 5 olması demek indexoutofBoundException atması demektir bundan dolayı  her zaman i<arr.length-2 olması gerekmektedir.
 
 Time Complexity
 ---------------
